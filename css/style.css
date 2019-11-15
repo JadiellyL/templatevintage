@@ -1,6 +1,12 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
 nav{
 	background-color: #1a1100;
+	text-transform: uppercase;
 }
+
 .image{
 	transition: 1s;
 	width: 100%;
@@ -13,4 +19,21 @@ nav{
 
 main{
 	background-color: #cccccc;
+	clear: left;
+}
+
+.imagem-bg{
+	width: 450px;
+	height: auto;
+	float: left;
+}
+
+.cor-fonte{
+	color: #4d4d4d;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+h2{
+	font-weight: bold;
 }
